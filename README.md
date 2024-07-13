@@ -12,7 +12,7 @@
 
 // Frontend
 
-- Vite React app with routing - i (basic routing of login amd main)
+- Vite React app with routing - i (basic routing of login and main)
 - Login functionality - !i
 - Board with pieces and legal moves only - !i (pieces display, most moves are validated eg. check, checkmate, but
   castling and en passant are tricky)
