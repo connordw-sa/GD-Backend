@@ -20,7 +20,7 @@
 - List current games - !i
 - Socket.io (frontend) - !i
 
-* Extra features to be added
+// Extra features to be added
 
 - Friend list (can use socket.io for messaging capabilities but undecided on this feature)
 - More user profile customization (probably multer for profile images)
