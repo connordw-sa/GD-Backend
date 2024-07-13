@@ -5,7 +5,7 @@
 // Backend
 
 - Express Server - i
-- Routing - !i
+- Routing/endpoints - !i
 - Models/schemas (users + games) - !i
 - Auth (including JsonWebToken) - !i
 - Socket.io (for realtime play) - !i (to be added last)
