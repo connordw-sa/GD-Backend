@@ -5,10 +5,12 @@
 // Backend
 
 - Express Server - i
-- Routing/endpoints - !i
-- Models/schemas (users + games) - !i
-- Auth (including JsonWebToken) - !i
+- Models/schemas (users) - i
+- Auth (including JsonWebToken) - i
+
 - Socket.io (for realtime play) - !i (to be added last)
+- Routing/endpoints - !i
+- Models/schemas (games) - !i
 
 // Frontend
 
@@ -25,4 +27,4 @@
 - Friend list (can use socket.io for messaging capabilities but undecided on this feature)
 - More user profile customization (probably multer for profile images)
 - Refine UI + UX
-- Leaderboard
+- Leaderboard // edit user model for additional properties like friends, games, games won etc.
