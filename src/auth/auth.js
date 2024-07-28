@@ -18,7 +18,6 @@ export const jwtAuthMiddleware = async (req, res, next) => {
   try {
     const accessToken = authorization.replace("Bearer ", "");
     const payload = await verifyAccessToken(accessToken);
-
     req.user = { _id: payload._id };
     next();
   } catch (error) {
